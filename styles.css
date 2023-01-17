@@ -1,0 +1,23 @@
+* {font-family: roboto;
+    margin: 0px;
+    padding: 0px;}
+
+.imgbox {outline-color: green;
+         outline-width: 3px;}
+.header1, .footer1, .abovefold {background-color: #1F2937; 
+                    display:flex;
+                    font-size: 18px;
+                    color: #E5E7EB;
+                    }
+.headerlogo {font-size: 24px;}
+.headerlinks {display:flex;
+              justify-content: flex-end;}       
+.header1 {justify-content: space-between; }
+
+.container-spaces1, .container-spaces2 {margin-right:200px;
+                    margin-left:200px;}
+
+.abovefold  {margin-top:50px;
+            margin-bottom:50px;}
+.abovefold-bg {background-color: #1F2937;
+                padding-bottom:20px;}
