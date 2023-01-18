@@ -8,6 +8,7 @@
                     display:flex;
                     font-size: 18px;
                     color: #E5E7EB;
+                    padding-top: 20px;
                     }
 .headerlogo {font-size: 24px;}
 .headerlinks {display:flex;
@@ -17,7 +18,17 @@
 .container-spaces1, .container-spaces2 {margin-right:200px;
                     margin-left:200px;}
 
-.abovefold  {margin-top:50px;
+.abovefold  {display:flex;
+            margin-top:50px;
             margin-bottom:50px;}
 .abovefold-bg {background-color: #1F2937;
                 padding-bottom:20px;}
+
+.hl1, .hl2, .hl3 {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    }
+
+.img-plc {display:flex;
+
+}
