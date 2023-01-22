@@ -13,7 +13,8 @@
 
 .headline-text   {font-size: 25px;
                     font-style: extra-bold;
-                    color: #F9FAF8;}                 
+                    color: #F9FAF8;
+                    flex:1;}                 
 .headerlogo {font-size: 24px;}
 .headerlinks {display:flex;
               justify-content: flex-end;}       
@@ -34,8 +35,9 @@
                     }
 
 .img-plc {display:flex;
-
-}
+    flex:1;
+    background-color: grey;
+            }
 
 .one, .two, .three {
 	/* border-color: red; */
