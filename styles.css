@@ -89,8 +89,9 @@
 }
 
 .quotebox {
-	margin: 69px;
-	font-size: 35px;
-	font-size: #1F2937;
+	padding: 100px 200px;
 	background-color: #E5E7F6;
+	font-size: 36px;
+	color: #1f2937;
+	font-stlye: light italic;
 }
