@@ -67,3 +67,30 @@
 	border-radius: 10px;
 	margin-top: 10px;
 }
+
+.infoheadtxt {
+	font-weight: bolder;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	margin: 40px;
+}
+
+.imgbox {
+	height: 162px;
+	border: 4px solid #3882F6;
+	width: auto;
+	margin: 10px 40px;
+	border-radius: 15px;
+}
+
+.\34 box {
+	display: flex;
+}
+
+.quotebox {
+	margin: 69px;
+	font-size: 35px;
+	font-size: #1F2937;
+	background-color: #E5E7F6;
+}
