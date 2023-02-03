@@ -11,7 +11,7 @@
                     padding-top: 20px;
                     }
 
-.headline-text   {font-size: 25px;
+.headline-text   {font-size: 18px;
                     font-style: extra-bold;
                     color: #F9FAF8;
                     flex:1;}                 
@@ -23,9 +23,12 @@
 .container-spaces1, .container-spaces2 {margin-right:200px;
                     margin-left:200px;}
 
-.abovefold  {display:flex;
-            margin-top:50px;
-            margin-bottom:50px;}
+.abovefold {
+						display: flex;
+						margin-top: 50px;
+						margin-bottom: 50px;
+						height: 182px;
+					}
 .abovefold-bg {background-color: #1F2937;
                 padding-bottom:20px;}
 
@@ -77,21 +80,40 @@
 }
 
 .imgbox {
-	height: 162px;
+	height: 129px;
 	border: 4px solid #3882F6;
-	width: auto;
-	margin: 10px 40px;
+	/* width: 94px; */
+	margin: 10px 25px;
 	border-radius: 15px;
 }
 
 .\34 box {
 	display: flex;
+	padding-bottom: 100px;
 }
-
 .quotebox {
 	padding: 100px 200px;
 	background-color: #E5E7F6;
-	font-size: 36px;
+	
 	color: #1f2937;
-	font-stlye: light italic;
+	
+}
+
+.attribute {
+	display: flex;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-size: x-large;
+	padding-right: 20px;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 36px;
+	font-weight: 300;
+}
+
+.subtext {margin: 10px 25px;
+	text-align:center;
+
 }
