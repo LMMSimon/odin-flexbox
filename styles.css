@@ -10,11 +10,13 @@
                     color: #E5E7EB;
                     padding-top: 20px;
                     }
-
-.headline-text   {font-size: 18px;
-                    font-style: extra-bold;
-                    color: #F9FAF8;
-                    flex:1;}                 
+.headline-text {
+						font-size: 16px;
+						font-style: extra-bold;
+						color: #F9FAF8;
+						flex: 1;
+						margin-right: 47px;
+					}      
 .headerlogo {font-size: 24px;}
 .headerlinks {display:flex;
               justify-content: flex-end;}       
@@ -116,4 +118,25 @@
 .subtext {margin: 10px 25px;
 	text-align:center;
 
+}
+
+.ctabox {
+	background-color: #3882F6;
+	margin: 53px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 9px;
+}
+.ctatext{
+	color:white;
+	font-size:10px;
+}
+.signup {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px;
+}
+.button1 {
+	color:#3882F6;
+	;
 }
