@@ -6,7 +6,7 @@
          outline-width: 3px;}
 .header1, .footer1, .abovefold {background-color: #1F2937; 
                     display:flex;
-                    font-size: 18px;
+                    font-size: 14px;
                     color: #E5E7EB;
                     padding-top: 20px;
                     }
@@ -17,7 +17,10 @@
 						flex: 1;
 						margin-right: 47px;
 					}      
-.headerlogo {font-size: 24px;}
+.headerlogo {
+						font-size: 24px;
+						font-weight: bold;
+					}
 .headerlinks {display:flex;
               justify-content: flex-end;}       
 .header1 {justify-content: space-between; }
@@ -39,10 +42,14 @@
                     padding-right: 20px;
                     }
 
-.img-plc {display:flex;
-    flex:1;
-    background-color: grey;
-            }
+.img-plc {
+						display: flex;
+						flex: 1;
+						background-color: grey;
+						line-height: 185px;
+						text-align: center;
+						padding-left: 125px;
+					}
 
 .one, .two, .three {
 	/* border-color: red; */
@@ -122,14 +129,15 @@
 
 .ctabox {
 	background-color: #3882F6;
-	margin: 53px;
+	margin: 80px 200px;
 	display: flex;
 	justify-content: space-around;
 	border-radius: 9px;
 }
-.ctatext{
-	color:white;
-	font-size:10px;
+.ctatext {
+	color: white;
+	font-size: 10px;
+	padding: 30px 10px;
 }
 .signup {
 	display: flex;
@@ -137,6 +145,17 @@
 	margin: 30px 0px;
 }
 .button1 {
-	color:#3882F6;
-	;
+	border: solid;
+	color: white;
+	font-size: 16px;
+	border-radius: 9px;
+	margin-top: 10px;
+	border-color: white;
+	padding: 5px 30px;
+	border-width: 2px;
+}
+
+.footer1 {
+	justify-content: center;
+	padding: 40px;
 }
